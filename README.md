@@ -1,6 +1,8 @@
 ### Docker Flask Example
 A very small micro-service architecture: Two simple web-app containers that communicate to each other through a docker network.
 
+![Block diagram of 2 containers in Docker](diagram.png?raw=true "Block Diagram")
+
 ### Flask Validator
 The validator's role is to serve as an orchestrator and gatekeeper, ensuring that the input into the system is clean and valid. 
 It must: 
