@@ -10,7 +10,7 @@ def definition():
     word = data.get("word")
     if word is None:
         error = {"word": None, "error": "Invalid JSON input."}
-        return error, 400
+        return error, 200
 
     word = data.get("word").strip().lower()
 

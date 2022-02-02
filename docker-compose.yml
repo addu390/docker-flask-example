@@ -1,4 +1,4 @@
-version: '3.3'
+version: '3.4'
 
 services:
   flask-processor:
@@ -14,7 +14,7 @@ services:
       - ".:/app/database:rw"
 
   flask-validator:
-    image: thenextbigproject/flask-validator:v13
+    image: thenextbigproject/flask-validator:v14
     container_name: flask-validator
     ports:
       - "5000:5000"
